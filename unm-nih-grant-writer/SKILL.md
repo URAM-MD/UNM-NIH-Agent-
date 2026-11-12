@@ -45,10 +45,13 @@ These four rules exist because breaking any of them can sink an application or h
 | The user wants | Read |
 |---|---|
 | Mechanism choice, section list, page limits, how review and scoring work | `references/nih-application-anatomy.md` |
+| Starting from a blank page, building or repairing an aims page, coaching a full draft step by step | `references/drafting-method.md` (the twelve-element aims page, the linkage test, the per-aim Approach unit) |
 | Help writing or critiquing Aims, Research Strategy, K or F sections, resubmissions, letters | `references/nih-writing-craft.md` |
 | Biosketch, Other Support, budget rules, indirect costs, AI use, submission limits, anything "is this still required" | `references/nih-policy-watch.md` |
 | Facilities & Resources, Institutional Commitment, Environment, recruitment feasibility, letters from UNM leadership, budget numbers | `unm-data/INDEX.md`, then the relevant files |
 | IRB protocol or consent language | the separate IRB skill if available; this skill covers only the NIH Human Subjects sections |
+
+**Build from the aims page outward.** The aims page is the master plan: get it right, and tested on readers, before expanding it into the Approach, then Significance, then everything else, with the title and abstract last. Work in bullets before prose so the logic is visible, and run the linkage test (gap, objective, hypothesis, aims, expected outcomes, impact all connect) whenever a draft feels off. The method is in `references/drafting-method.md`.
 
 **Draft like a funded investigator, then read like a tired reviewer.** After producing or editing any section, do a second pass as an assigned reviewer on a study section who has eight other applications to read: Is the gap and its importance obvious in the first paragraph? Could I state each aim's hypothesis and deliverable from memory? Do the aims depend on each other? Where would I write "overly ambitious", "descriptive", "lacks rigor" or "environment not well described"? Report the weaknesses you find; do not quietly leave them.
 
@@ -68,7 +71,7 @@ Read `unm-data/institution/unm-overview.md` and `unm-data/institution/proposal-l
 
 ## Growing the library
 
-When the user gives you durable UNM information (a rate agreement, a core's equipment list, a successful Facilities page, a dean's letter template, enrollment numbers), offer to file it. Follow `unm-data/HOW-TO-ADD-DATA.md`: put it in the right file, tag each fact with its status, source and date, and add a line to `INDEX.md`. If you have a checkout with push access, commit it; otherwise give the user the file to add to the repository. Never file anything that identifies patients, and keep unpublished science out unless the user explicitly wants it there, because the repository may be visible to others.
+When the user gives you durable UNM information (a rate agreement, a core's equipment list, a successful Facilities page, a dean's letter template, enrollment numbers), offer to file it. Follow `unm-data/HOW-TO-ADD-DATA.md`: put it in the right file, tag each fact with its status, source and date, and add a line to `INDEX.md`. If you have a checkout with push access, commit it; otherwise give the user the file to add to the repository. Do not add copyrighted books, paid course materials or journal PDFs to the repository; record the lesson in your own words in `references/` instead. Never file anything that identifies patients, and keep unpublished science out unless the user explicitly wants it there, because the repository may be visible to others.
 
 ## Output conventions
 
